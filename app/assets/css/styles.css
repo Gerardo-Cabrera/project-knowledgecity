@@ -1,0 +1,174 @@
+body {
+    background-color: #f7f5f7;
+}
+
+.container-form {
+    margin-top: 200px;
+}
+
+.padding-zero {
+    padding: 0px;
+}
+
+.margin-zero {
+    margin: 0px;
+}
+
+.span {
+    font-size: 10.2px;
+    font-weight: bold;
+    position: absolute;
+}
+
+label {
+    position: relative;
+}
+
+.label-user:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../images/user.svg") center / contain no-repeat;
+}
+
+.label-password:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../images/password.svg") center / contain no-repeat;
+}
+
+.label-login:before {
+    content: "";
+    position: absolute;
+    left: 306px;
+    top: 0;
+    bottom: 0;
+    width: 26px;
+    background: url("../images/row-login.svg") center / contain no-repeat;
+    filter: invert();
+    cursor: pointer;
+}
+
+.input {
+    padding: 10px 30px !important;
+    width: 346px !important;
+}
+
+.btn-login {
+    width: 346px; 
+    background-color: #e98c3b;
+    border-color: #e98c3b;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn-login:hover {
+    background-color: #e98c4f;
+    border-color: #e98c4f;
+    color: #ffffff;
+}
+
+.form-check-input {
+    left: 32px !important;
+    width: 10px;
+}
+
+.form-check-label {
+    left: 28px;
+    font-size: 12px;
+    top: -2px;
+}
+
+.label-check {
+    content: "";
+    position: absolute;
+    left: 38px;
+    top: 0;
+    bottom: 0;
+    width: 26px;
+    background: url("../images/check.svg") center / contain no-repeat;
+    cursor: pointer;
+}
+
+.footer {
+    top: 905px !important;
+    position: absolute;
+    width: 100%;
+}
+
+.btn-logout {
+    width: 100%; 
+    border: 0; 
+    font-size: 13px; 
+    font-weight: bold; 
+    background-color: #e8e8e8; 
+    height: 32px;
+}
+
+.btn-logout:hover {
+    text-decoration: underline;
+}
+
+.font-td {
+    font-weight: 600;
+}
+
+.td-image {
+    text-align: right;
+}
+
+.img-width {
+    width: 30px;
+}
+
+.label-name {
+    top: 20px; 
+    font-size: 12px; 
+    color: #aeaeae;
+    padding-bottom: 10px;
+}
+
+.label-username {
+    left: -52px;
+}
+
+.label-group {
+    top: 20px; 
+    font-size: 13px; 
+}
+
+.label-dots {
+    left: -80px;
+    font-weight: bold;
+}
+
+.item-link {
+    color: #000000 !important;
+    border: none !important;
+    background-color: #f7f5f7 !important;
+}
+
+.page-item.active .page-link {
+    border-bottom: 3px solid #e98c3b !important;
+    border-radius: 0px;
+    background-color: initial;
+}
+
+.page-link:hover {
+    background-color: unset;
+}
+
+.disabled {
+    color: #aeaeae !important;
+}
+
+.div-table {
+    min-height: 360px;
+}
