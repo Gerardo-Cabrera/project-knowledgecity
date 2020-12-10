@@ -4,4 +4,4 @@
 
 - Inside the app folder, there is a folder called "conf", which contains a json file in which the corresponding data can be specified to establish a connection to a database. Also in the same folder is the .sql file that contains the database, tables, and test data.
 
-- Once configured, the project can be accessed for testing, through localhost: "localhost/app/login.html".
+- Once configured, the project can be accessed for testing in the web, through localhost: "localhost/app/login.html". In case of working on a port other than port 8080, which is the default port used from localhost, the same must be added and the path to access the project on the web would be: "localhost:numberPort/app/login.html"
